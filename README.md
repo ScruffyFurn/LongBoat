@@ -15,7 +15,7 @@ If you are looking to modify Longboat code. The following is required
     - C++ Rest SDK (Casablanca) <a href="https://www.nuget.org/packages/wastorage/">Version 2.4.0.1</a>
 
 # Download & Install
-You can find the required DLL files in the release section of this github page. <a href="https://github.com/Xenetics/Longboat/releases">Here</a>
+You can find the required DLL files in the release section of this github page. <a href="https://github.com/ScruffyFurn/Longboat/releases">Here</a>
 Add these to your project and you are on your way. 
 
 ### For use in unity
