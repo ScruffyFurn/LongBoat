@@ -12,7 +12,7 @@ Heat mapping is the primary purpose for Longboat but is by no means limited to j
 If you are looking to modify Longboat code. The following is required
 - Longboat requires the following
   - Azure C++ SDK wastorage <a href="https://www.nuget.org/packages/wastorage/">Version 1.0</a>
-    - C++ Rest SDK (Casablanca) <a href="https://www.nuget.org/packages/wastorage/">Version 2.4.0.1</a>
+    - C++ Rest SDK (Casablanca) <a href="https://www.nuget.org/packages/wastorage/">Version 2.4.0.1</a> (this will be installed automatically with wastorage through nuget)
 
 # Download & Install
 You can find the required DLL files in the release section of this github page. <a href="https://github.com/ScruffyFurn/Longboat/releases">Here</a>
