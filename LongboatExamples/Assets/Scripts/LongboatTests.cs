@@ -67,6 +67,37 @@ public class LongboatTests : MonoBehaviour {
         */
         //Debug.Log("Data Deleted: " + DeleteData("bamalam-container-1"));
 
-        Debug.Log("String of Blob Data:" + ListData("bamalam-container-1"));
-	}
+        //Debug.Log("String of Blob Data:" + ListData("bamalam-container-1"));
+
+
+        //Timing tests for george
+
+        //Debug.Log("Container Created: " + CreateContainer("bamalam-container-2"));
+
+        System.Threading.Thread newThread = new System.Threading.Thread(Push);
+        newThread.Start();
+
+        //Debug.Log("String of Blob Data:" + ListData("bamalam-container-2"));
+
+        //Debug.Log("Data Deleted: " + DeleteData("bamalam-container-2"));
+    }
+
+    private void Push()
+    {
+        //System.Diagnostics.Stopwatch timer = new System.Diagnostics.Stopwatch();
+        //timer.Start();
+
+        for (int i = 0; i < 1000; ++i)
+        {
+            System.Random r = new System.Random();
+            float x = r.Next(-50, 50);
+            float y = r.Next(-50, 50);
+            float z = r.Next(-50, 50);
+            string loc = x + "," + y + "," + z;
+            CreateData("bamalam-container-2", "Location: " + loc, loc);
+            //Debug.Log("Data Created. Count at: " + CreateData("bamalam-container-2", "Location: " + loc, loc));
+            //Debug.Log(i + " time " + timer.ElapsedMilliseconds);
+        }
+        //Debug.Log("Total " + timer.ElapsedMilliseconds);
+    }
 }
