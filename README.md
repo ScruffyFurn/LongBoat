@@ -20,8 +20,7 @@ If you are looking to modify Longboat code. The following is required.
 2. You will need a way to edit your code, I use Visual Studios since it makes package management simple but you can use the editor of your choice. Just keep in mind you will be needing packages with nuget or git.  
 3. You will need a <a href="https://azure.microsoft.com/en-us/pricing/free-trial/?WT.mc_id=azurebg_CA_sem_google_BR_BRTop_Nontest_FreeTrial_azure&WT.srch=1">Microsoft Azure subscription</a>  
 4. Lastly Longboat requires the following
-- Azure C++ SDK wastorage <a href="https://www.nuget.org/packages/wastorage/">Version 1.0</a>
-    - The Above which requirese C++ Rest SDK (Casablanca) <a href="https://www.nuget.org/packages/wastorage/">Version 2.4.0.1</a> (this will be installed automatically with wastorage through nuget but double check the versions.)
+- Azure C++ SDK wastorage <a href="https://www.nuget.org/packages/wastorage/">Version 1.0 or Higher</a>
 
 # Download & Install
 You can find the required DLL files in the release section of this github page. <a href="https://github.com/ScruffyFurn/Longboat/releases">Here</a>
