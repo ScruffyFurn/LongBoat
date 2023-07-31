@@ -32,9 +32,9 @@ Add these to your project and you are on your way.
   - Navigate to where you downloaded the DLL’s to and select and import them one at a time
 
 # Getting Started
-###Unity
+### Unity
 For a quick start there is a unity example project that can help you get the hang of using Longboat in unity
-###Anything else
+### Anything else
 To get started with the Longboat library in any other platform or just to modify or study it. All you should need is Longboat itself and the DLL's
 
 
